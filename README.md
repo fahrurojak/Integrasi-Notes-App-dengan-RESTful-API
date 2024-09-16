@@ -1,6 +1,6 @@
 # 📝 Notes App Integration with RESTful API
 
-Welcome to the **Notes App** project submission! This app integrates a RESTful API to handle notes in real-time. It's part of the [Learn Front-End Web Development Fundamentals](https://www.dicoding.com/academies/123) course on Dicoding. The project includes asynchronous data fetching, modern UI/UX design, and efficient bundling with Webpack.
+Welcome to the **Notes App** project submission! This app integrates a RESTful API to handle notes in real-time. It's part of the [Learn Front-End Web Development Fundamentals](https://www.dicoding.com/academies/163) course on Dicoding. The project includes asynchronous data fetching, modern UI/UX design, and efficient bundling with Webpack.
 
 ---
 

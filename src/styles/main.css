@@ -1,0 +1,57 @@
+body {
+  background-color: #2c2c2e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 9px;
+  color: #e5e5ea;
+}
+
+#archive-note {
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid #e5e5ea;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#archive-note h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #e5e5ea;
+}
+
+.note-content {
+  background-color: #2c2c2e;
+  color: #e5e5ea;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.delete-button,
+.detail-button,
+.unarchive-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete-button:hover,
+.detail-button:hover,
+.unarchive-button:hover {
+  background-color: #388e3c;
+}
+

@@ -13,7 +13,7 @@ export default class AddNoteForm extends HTMLElement {
   renderForm() {
     const form = document.createElement('form')
     form.innerHTML = `
-            <label for="title">Title:</label><br>
+            <label for="title">Note Title:</label><br>
             <input type="text" id="title" name="title" required minlength="0" maxlength="25"><br><br>
             <label for="body">Content of Notes:</label><br>
             <textarea id="body" name="body" rows="4" cols="50" required minlength="0" maxlength="500"></textarea><br><br>
@@ -35,7 +35,7 @@ export default class AddNoteForm extends HTMLElement {
                 background-color: #121212;
                 border-radius: 8px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border: 2px solid white;
+                border: 1px solid white;
             }
             
             label {

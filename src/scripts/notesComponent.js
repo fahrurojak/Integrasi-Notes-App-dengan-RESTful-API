@@ -153,7 +153,7 @@ export default class NotesComponent extends HTMLElement {
         padding: 20px;
         box-sizing: border-box;
         transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
-         border: 2px solid white;
+         border: 1px solid white;
     }
 
     .note-content:hover {
